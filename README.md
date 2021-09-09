@@ -1,5 +1,5 @@
-# xcx-http-fetch
-An example extension for ([Xcratch: Extendable Scratch3 Programming Environment](https://xcratch.github.io/))
+# HTTP Fetch
+An example extension for [Xcratch: Extendable Scratch3 Programming Environment](https://xcratch.github.io/)
 
 This extension add extra-block "do it", that executes string in its input field as a sentence in Javascript and return the result.
 
@@ -50,7 +50,7 @@ npm install
 
 ## 🏠 Home Page
 
-Open this page from [https://yokobond.github.io/xcx-http-fetch/]()
+Open this page from [https://yokobond.github.io/xcx-http-fetch/](https://yokobond.github.io/xcx-http-fetch/)
 
 
 ## 🤝 Contributing

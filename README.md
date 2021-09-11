@@ -1,7 +1,7 @@
 # HTTP Fetch
-An example extension for [Xcratch: Extendable Scratch3 Programming Environment](https://xcratch.github.io/)
+Fetch blocks for [Xcratch: Extendable Scratch3 Programming Environment](https://xcratch.github.io/)
 
-This extension add extra-block "do it", that executes string in its input field as a sentence in Javascript and return the result.
+This extension add extra-block to GET/POST of HTTP.
 
 
 ## ✨ What You Can Do With This Extension
@@ -19,32 +19,6 @@ This extension can be used with other extension in [Xcratch](https://xcratch.git
 4. Type the module URL in the input field 
 ```
 https://yokobond.github.io/xcx-http-fetch/dist/httpFetch.mjs
-```
-
-## Development
-
-### Register on the local Xcratch
-
-Run register script to install this extension on the local Xcratch for testing.
-
-```sh
-npm run register
-```
-
-### Bundle into a Module
-
-Run build script to bundle this extension into a module file which could be loaded on Xcratch.
-
-```sh
-npm run build
-```
-
-### Linting
-
-Install Scratch eslint-config to coding.
-
-```sh
-npm install
 ```
 
 

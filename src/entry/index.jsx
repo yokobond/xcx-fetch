@@ -15,10 +15,10 @@ let formatMessage = messageData => messageData.defaultMessage;
 
 const translationMap = {
     'ja': {
-        'gui.extension.httpFetch.description': 'Xcratch 拡張の例'
+        'gui.extension.httpFetch.description': 'ウェブからリソースを得る'
     },
     'ja-Hira': {
-        'gui.extension.httpFetch.description': 'Xcratch (えくすくらっち)かくちょうのれい'
+        'gui.extension.httpFetch.description': 'ウェブからリソースをとる'
     }
 };
 
@@ -31,8 +31,8 @@ const entry = {
     insetIconURL: insetIconURL,
     get description () {
         return formatMessage({
-            defaultMessage: 'an extension for Xcratch',
-            description: 'Description for this extension',
+            defaultMessage: 'Get resources from the Web',
+            description: 'Description for HTTP Fetch',
             id: 'gui.extension.httpFetch.description'
         });
     },

@@ -15,32 +15,32 @@ let formatMessage = messageData => messageData.defaultMessage;
 
 const translationMap = {
     'ja': {
-        'gui.extension.httpFetch.description': 'ウェブからリソースを得る'
+        'gui.extension.httpRequest.description': 'HTTPリクエストを送る'
     },
     'ja-Hira': {
-        'gui.extension.httpFetch.description': 'ウェブからリソースをとる'
+        'gui.extension.httpRequest.description': 'HTTPリクエストをおくる'
     }
 };
 
 const entry = {
-    name: 'HTTP Fetch',
-    extensionId: 'httpFetch',
-    extensionURL: 'https://yokobond.github.io/xcx-http-fetch/dist/httpFetch.mjs',
+    name: 'HTTP Request',
+    extensionId: 'httpRequest',
+    extensionURL: 'https://yokobond.github.io/xcx-http-request/dist/httpRequest.mjs',
     collaborator: 'yokobond',
     iconURL: iconURL,
     insetIconURL: insetIconURL,
     get description () {
         return formatMessage({
-            defaultMessage: 'Get resources from the Web',
-            description: 'Description for HTTP Fetch',
-            id: 'gui.extension.httpFetch.description'
+            defaultMessage: 'Make HTTP requests',
+            description: 'Description for HTTP Request',
+            id: 'gui.extension.httpRequest.description'
         });
     },
     featured: true,
     disabled: false,
     bluetoothRequired: false,
     internetConnectionRequired: false,
-    helpLink: 'https://yokobond.github.io/xcx-http-fetch/',
+    helpLink: 'https://yokobond.github.io/xcx-http-request/',
     setFormatMessage: formatter => {
         formatMessage = formatter;
     },

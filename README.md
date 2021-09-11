@@ -1,13 +1,13 @@
-# HTTP Fetch
-Fetch blocks for [Xcratch: Extendable Scratch3 Programming Environment](https://xcratch.github.io/)
+# HTTP Request
+HTTP requesting blocks for [Xcratch](https://xcratch.github.io/)
 
-This extension add extra-block to GET/POST of HTTP.
+This extension adds extra-blocks to make requests in HTTP.
 
 
 ## ✨ What You Can Do With This Extension
 
-Play [Example Project](https://xcratch.github.io/editor/#https://yokobond.github.io/xcx-http-fetch/projects/example.sb3) to look at what you can do with "HTTP Fetch" extension. 
-<iframe src="https://xcratch.github.io/editor/player#https://yokobond.github.io/xcx-http-fetch/projects/example.sb3" width="540px" height="460px"></iframe>
+Play [Example Project](https://xcratch.github.io/editor/#https://yokobond.github.io/xcx-http-request/projects/example.sb3) to look at what you can do with "HTTP Request" extension. 
+<iframe src="https://xcratch.github.io/editor/player#https://yokobond.github.io/xcx-http-request/projects/example.sb3" width="540px" height="460px"></iframe>
 
 
 ## How to Use in Xcratch
@@ -18,15 +18,15 @@ This extension can be used with other extension in [Xcratch](https://xcratch.git
 3. Select 'Extension Loader' extension
 4. Type the module URL in the input field 
 ```
-https://yokobond.github.io/xcx-http-fetch/dist/httpFetch.mjs
+https://yokobond.github.io/xcx-http-request/dist/httpRequest.mjs
 ```
 
 
 ## 🏠 Home Page
 
-Open this page from [https://yokobond.github.io/xcx-http-fetch/](https://yokobond.github.io/xcx-http-fetch/)
+Open this page from [https://yokobond.github.io/xcx-http-request/](https://yokobond.github.io/xcx-http-request/)
 
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/yokobond/xcx-http-fetch/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/yokobond/xcx-http-request/issues). 
